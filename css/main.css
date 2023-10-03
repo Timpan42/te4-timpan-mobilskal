@@ -1,27 +1,81 @@
-.main-conainer {
+.top-container {
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     background:
         /* top, transparent black, faked with gradient */
-        linear-gradient(rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.4)),
+        linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)),
         /* bottom, image */
-        url(/public/behar-zenuni-x86l1G0G4BQ-unsplash.jpg);
+        url(/public/top_photo.jpg);
 }
 
-.main-container-box {
+.top-container-box {
     text-align: center;
+    color: var(--color-bg);
+    padding-top: 20rem;
+    padding-bottom: 20rem;
 }
 
-.main-container-box h1 p button {
-    opacity: 1;
+.top-container-box button {
+    margin-top: 5rem;
+    border-style: none;
+    border-radius: 20%;
+    padding: 10px;
+    font-size: var(--step-1);
+    background-color: var(--color-secondary);
 }
 
-.main-container-box h1 {
-    margin-top: 10rem;
+.main-list-cards {
+    border-radius: var(--border-radius);
+    max-width: unset;
+    padding: var(--space-m-l);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
-.main-container-box button {
-    margin-bottom: 10rem;
+.main-list-img-background {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: min(30rem, 100vw - var(--space-xl));
+    object-fit: cover;
+}
+
+.main-list-img-background img {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: min(30rem, 100vw - var(--space-xl));
+    z-index: -1;
+    object-fit: cover;
+
+}
+
+.main-list-elements {
+    padding-left: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.main-list-elements button {
+    width: 13%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-style: none;
+    border-radius: 20%;
+    padding: 5px;
+    font-size: var(--step-1);
+    background-color: var(--color-secondary);
+}
+
+@media screen and (max-width: 850px) {
+    .main-container-box {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
 }
