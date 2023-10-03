@@ -1,3 +1,27 @@
 .main-conainer {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)),
+        /* bottom, image */
+        url(/public/behar-zenuni-x86l1G0G4BQ-unsplash.jpg);
+}
+
+.main-container-box {
     text-align: center;
+}
+
+.main-container-box h1 p button {
+    opacity: 1;
+}
+
+.main-container-box h1 {
+    margin-top: 10rem;
+}
+
+.main-container-box button {
+    margin-bottom: 10rem;
 }

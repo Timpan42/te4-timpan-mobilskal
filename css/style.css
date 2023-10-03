@@ -51,6 +51,8 @@
 }
 
 body {
+    margin: 0;
+    padding: 0;
     font-family: var(--base-font);
     color: var(--color-fg-black);
     background-color: var(--color-bg-light);
@@ -107,6 +109,11 @@ li {}
     padding-left: var(--gutter);
     padding-right: var(--gutter);
     position: relative
+}
+
+.section {
+    padding-top: var(--space-m);
+    padding-bottom: var(--space-l);
 }
 
 .grid {
