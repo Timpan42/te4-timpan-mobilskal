@@ -118,7 +118,6 @@ li {}
 
 .grid {
     display: grid;
-    gap: var(--gutter, var(--space-s-l));
     grid-template-columns: repeat(var(--grid-placement, auto-fill), minmax(var(--grid-min-item-size, 16rem), 1fr))
 }
 
@@ -130,6 +129,14 @@ li {}
 .grid[data-layout="50-50"] {
     --grid-placement: auto-fit;
     --grid-min-item-size: clamp(16rem, 50vw, 26rem);
+}
+
+.features {
+    --grid-placement: auto-fit;
+    --grid-min-item-size: clamp(16rem, 33%, 20rem);
+    --gutter: var(--space-l-xl);
+    --flow-space: var(--space-s);
+    padding: 0;
 }
 
 .list-container {

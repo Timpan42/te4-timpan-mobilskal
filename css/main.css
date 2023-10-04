@@ -24,7 +24,7 @@
 .top-container-box button {
     margin-top: 5rem;
     border-style: none;
-    border-radius: 20%;
+    border-radius: 1rem;
     padding: 10px;
     font-size: var(--step-1);
     background-color: var(--color-secondary);
@@ -33,7 +33,7 @@
 .main-list-cards {
     border-radius: var(--border-radius);
     max-width: unset;
-    padding: var(--space-m-l);
+    padding: var(--space-xs-s);
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -59,20 +59,26 @@
 
 .main-list-elements {
     padding-left: 20px;
-    width: 100%;
+    width: fit-content;
+    padding: 10px;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 
+.main-list-elements p {
+    font-size: var(--step-2);
+    font-weight: 700;
+}
+
 .main-list-elements button {
-    width: 13%;
+    width: fit-content;
     margin-top: 1rem;
     margin-bottom: 1rem;
     border-style: none;
-    border-radius: 20%;
-    padding: 5px;
+    border-radius: 1rem;
+    padding: 10px;
     font-size: var(--step-1);
     background-color: var(--color-secondary);
 }
