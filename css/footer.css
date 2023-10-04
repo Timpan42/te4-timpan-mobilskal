@@ -1,4 +1,5 @@
 .footer-container {
     background-color: black;
     color: var(--color-bg);
+    padding: 2rem;
 }

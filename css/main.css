@@ -1,3 +1,7 @@
+.center {
+    text-align: center;
+}
+
 .top-container {
     position: relative;
     background-size: cover;
@@ -7,7 +11,7 @@
         linear-gradient(rgba(0, 0, 0, 0.6),
             rgba(0, 0, 0, 0.6)),
         /* bottom, image */
-        url(/public/top_photo.jpg);
+        url('/top_photo.jpg');
 }
 
 .top-container-box {
