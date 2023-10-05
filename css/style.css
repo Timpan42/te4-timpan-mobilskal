@@ -90,6 +90,14 @@ ul {
 
 li {}
 
+button {
+    border-style: none;
+    border-radius: 1rem;
+    padding: 10px;
+    font-size: var(--step-1);
+    background-color: var(--color-secondary);
+}
+
 .container {
     width: min(75rem, 100vw - var(--space-xl));
     margin-left: auto;
@@ -112,7 +120,7 @@ li {}
 }
 
 .section {
-    padding-top: var(--space-m);
+    padding-top: var(--space-l);
     padding-bottom: var(--space-l);
 }
 

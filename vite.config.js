@@ -2,7 +2,7 @@ import { resolve } from 'path'
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-    base: '/te4-pizza/',
+    base: '/te4-mobilskal/',
     build: {
         rollupOptions: {
             input: {

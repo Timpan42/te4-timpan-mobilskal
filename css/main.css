@@ -23,11 +23,6 @@
 
 .top-container-box button {
     margin-top: 5rem;
-    border-style: none;
-    border-radius: 1rem;
-    padding: 10px;
-    font-size: var(--step-1);
-    background-color: var(--color-secondary);
 }
 
 .main-list-cards {
@@ -76,11 +71,6 @@
     width: fit-content;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    border-style: none;
-    border-radius: 1rem;
-    padding: 10px;
-    font-size: var(--step-1);
-    background-color: var(--color-secondary);
 }
 
 @media screen and (max-width: 850px) {
