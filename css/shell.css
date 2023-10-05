@@ -3,6 +3,11 @@
     gap: 5rem;
 }
 
+.shell-img-flex {
+    display: flex;
+    gap: 2rem;
+}
+
 .shell-small-img {
     display: flex;
     flex-direction: column;
@@ -14,10 +19,48 @@
     height: 150px;
 }
 
+.shell-main-img {}
+
+.shell-main-img img {
+    width: 100%;
+    height: min(50rem, 100vw - var(--space-xl));
+}
+
+
 .shell-product-priss {
     padding: 1rem;
     background-color: var(--color-primary);
     border-radius: 5px;
+}
+
+.shell-product-priss-button {
+    display: flex;
+    flex-direction: column;
+}
+
+.shell-product-priss-button button {
+    width: fit-content;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.shell-product-priss-button p {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.shell-köp-button {
+    text-align: center;
+}
+
+.shell-köp-button button {
+    font-size: var(--step-2);
+    font-weight: 600;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 3rem;
 }
 
 .shell-info {
