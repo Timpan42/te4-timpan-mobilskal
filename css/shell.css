@@ -1,0 +1,31 @@
+.shell-flex {
+    display: flex;
+    gap: 5rem;
+}
+
+.shell-small-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.shell-small-img img {
+    margin-top: 10px;
+    width: 100px;
+    height: 150px;
+}
+
+.shell-product-priss {
+    padding: 1rem;
+    background-color: var(--color-primary);
+    border-radius: 5px;
+}
+
+.shell-info {
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: var(--color-primary);
+}
+
+.shell-info p {
+    padding-left: 2rem;
+}
