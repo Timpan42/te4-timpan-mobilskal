@@ -47,7 +47,10 @@
     --color-fg: #1d1d1f;
     --color-bg: #f5f5f7;
     --color-primary: #D2E0FB;
+    --color-primary-hover: #5b90f8;
     --color-secondary: #79AC78;
+    --color-secondary-hover: #1eac1b;
+
 }
 
 body {
@@ -96,6 +99,11 @@ button {
     padding: 10px;
     font-size: var(--step-1);
     background-color: var(--color-secondary);
+    transition: 0.8s;
+}
+
+button:hover {
+    background-color: var(--color-secondary-hover);
 }
 
 .container {

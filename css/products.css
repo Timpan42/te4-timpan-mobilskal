@@ -12,6 +12,11 @@
     align-items: center;
     font-size: var(--step-1);
     background-color: var(--color-primary);
+    transition: 0.8s;
+}
+
+.button-container button:hover {
+    background-color: var(--color-primary-hover);
 }
 
 .button-filter-container {
