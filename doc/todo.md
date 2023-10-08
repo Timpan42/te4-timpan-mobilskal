@@ -1,5 +1,4 @@
 # Att göra lista 
-* Telefon knapp göra den till en drop down meny 
 
 ### om det finns tid
 * bilderna kan få en hover effect som man kan trycka på. 

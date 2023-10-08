@@ -165,3 +165,7 @@ button:hover {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
+
+.nav-padding {
+    padding-top: 200px;
+}

@@ -38,7 +38,7 @@
     </nav>
 
 
-    <main>
+    <main class="nav-padding">
         <article class="shell-flex wrapper container section">
             <div class="shell-img-flex">
                 <div class="shell-small-img">
@@ -58,8 +58,20 @@
                         <p>399 SEK</p>
                     </div>
                     <div class="shell-product-priss-button">
-                        <button>Telefon typer</button>
-                        <div class="shell-köp-button section">
+                        <select name="phoneTyp" id="phoneTyp">
+                            <optgroup label="iPhones">
+                                <option value="iphone_15">iPhone 15</option>
+                                <option value="iphone_15_pro">iPhone 15 Pro</option>
+                            </optgroup>
+                            <optgroup label="Samsung">
+                                <option value="galaxy_s23">Galaxy s23</option>
+                                <option value="galaxy_s23_ultra">Galaxy s23 Ultra</option>
+                            </optgroup>
+                            <optgroup label="Google">
+                                <option value="pixel_8">Pixel 8</option>
+                                <option value="pixel_8_pro">Pixel 8 Pro</option>
+                        </select>
+                        <div class="shell-buy-button section">
                             <a href="./cart.html"><button>KÖP</button></a>
                         </div>
                         <p>
@@ -198,7 +210,7 @@
                                 Kontakta oss
                             </h2>
                             <h3>
-                                <a href="./pages/contact.html">Kundtjänst</a>
+                                <a href="./contact.html">Kundtjänst</a>
                             </h3>
                             <p>
                                 Telefon: +46 16 305 8304

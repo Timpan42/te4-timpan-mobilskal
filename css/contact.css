@@ -1,6 +1,11 @@
 .contact-container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
     background-color: var(--color-primary);
     padding: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .contact-container h2 {

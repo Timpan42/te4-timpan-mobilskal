@@ -26,7 +26,8 @@
     gap: 2rem;
 }
 
-.button-filter-container button {
+.button-filter-container select {
+    background-color: var(--color-secondary);
     font-size: var(--step-0);
     border: none;
     border-radius: 0.5rem;
