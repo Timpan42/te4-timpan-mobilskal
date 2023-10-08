@@ -17,26 +17,24 @@
     background: var(--color-primary);
     color: var(--color-fg);
     opacity: 0.85;
-    height: 4rem;
     z-index: 12;
 }
 
 .navbar-container {
     display: flex;
     justify-content: space-between;
-    height: 64px;
     align-items: center;
 }
 
 .menu-items {
     order: 2;
     display: flex;
+    align-items: center;
 }
 
 .menu-items li {
     list-style: none;
-    margin-left: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-left: 1rem;
     font-size: 1.2rem;
 }
 
@@ -48,7 +46,7 @@
 }
 
 .menu-items a:hover {
-    color: #117964;
+    color: var(--color-secondary-hover);
     transition: color 0.3s ease-in-out;
 }
 
@@ -65,9 +63,11 @@ input[type=text] {
     border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
+    background-image: url('/searchicon.png');
     background-color: white;
     background-position: 10px 10px;
     background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
 }
 
 @media (max-width: 768px) {
@@ -84,14 +84,15 @@ input[type=text] {
         display: block;
         position: relative;
         height: 64px;
+        padding: 0;
     }
 
     .navbar-container input[type="checkbox"] {
         position: absolute;
         display: block;
-        height: 32px;
-        width: 30px;
-        top: 20px;
+        height: 23px;
+        width: 35px;
+        top: 17px;
         left: 20px;
         z-index: 5;
         opacity: 0;
@@ -133,6 +134,7 @@ input[type=text] {
     }
 
     .navbar .menu-items {
+        align-items: normal;
         padding-top: 100px;
         background: #fff;
         height: 100vh;
@@ -144,6 +146,19 @@ input[type=text] {
         padding-left: 50px;
         transition: transform 0.5s ease-in-out;
         box-shadow: 5px 0px 10px 0px #aaa;
+    }
+
+    input[type=text] {
+        width: 100%;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-image: url('/searchicon.png');
+        background-color: white;
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 30px;
     }
 
     .navbar .menu-items li {
