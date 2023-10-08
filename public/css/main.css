@@ -11,7 +11,7 @@
         linear-gradient(rgba(0, 0, 0, 0.6),
             rgba(0, 0, 0, 0.6)),
         /* bottom, image */
-        url('/top_photo.jpg');
+        url('../img/top_photo.jpg');
 }
 
 .top-container-box {
